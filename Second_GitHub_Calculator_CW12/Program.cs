@@ -15,8 +15,18 @@
             Console.WriteLine("Enter Number 2:");
             int number2 = int.Parse(Console.ReadLine());
 
+            int result = 0;
+            switch (process)
+            {
 
-         
+                case "+": result = number1 + number2; break;
+
+                default:
+                    break;
+            }
+            Console.WriteLine("{0} {1} {2} = {3}", number1, process, number2, result);
+
+
         }
     }
 }
