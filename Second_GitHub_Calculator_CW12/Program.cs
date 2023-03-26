@@ -8,6 +8,10 @@
 
             Console.WriteLine("Enter Number 1:");
             int number1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Select a Process(+,-,*,/,%):");
+            string process = Console.ReadLine();
+
             Console.WriteLine("Enter Number 2:");
             int number2 = int.Parse(Console.ReadLine());
 
