@@ -6,13 +6,13 @@
         {
             Console.WriteLine("Calculator\n");
 
-            Console.WriteLine("Enter Number 1:");
+            Console.WriteLine("Enter Number 1v:");
             double number1 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Select a Process(+,-,*,/,%):");
             string process = Console.ReadLine();
 
-            Console.WriteLine("Enter Number 2:");
+            Console.WriteLine("Enter Number 2v:");
             double number2 = double.Parse(Console.ReadLine());
 
             double result = 0;
