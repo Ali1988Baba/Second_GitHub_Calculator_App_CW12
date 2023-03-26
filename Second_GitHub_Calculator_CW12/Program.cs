@@ -20,9 +20,8 @@
             {
 
                 case "+": result = number1 + number2; break;
-
-                default:
-                    break;
+                case "-" when(number1>number2): result = number1 - number2; break;
+                
             }
             Console.WriteLine("{0} {1} {2} = {3}", number1, process, number2, result);
 
